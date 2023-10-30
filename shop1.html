@@ -1,0 +1,650 @@
+<!DOCTYPE html <html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cottonking</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="Assets/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="Assets/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="Assets/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="Assets/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="Assets/css/bootstrap.css">
+    <link rel="stylesheet" href="Assets/css/bootstrap.min.css">
+    <script type="text/javascipt" src="Assets/js/bootstrap.bundle.js"></script>
+    <script type="text/javascipt" src="Assets/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascipt" src="Assets/js/bootstrap.js"></script>
+    <script type="text/javascipt" src="Assets/js/bootstrap.min.js"></script> -->
+    <script src="https://kit.fontawesome.com/47165d8934.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png"
+        href="https://d1yluyhql7qeci.cloudfront.net/ckecom/images/media/store/2020/07/OU16824304.png">
+</head>
+
+
+
+<body>
+    <header>
+        <div class="container-fluid  bg-info d-none d-md-block">
+            <div class="row">
+                <div class="col-md-4">
+                    <ul class="menu_email mt-3">
+                        <a href="">
+                            <li class="text-white font-weight-bold d-inline 1"><i
+                                    class="fa-solid fa-location-dot text-white mr-2"></i>Store Locator</li>
+                        </a>
+                        <li class="text-white font-weight-bold d-inline"><span>|</span></li>
+                        <li class="text-white font-weight-bold d-inline 1"><i
+                                class="fa-solid fa-phone text-white mr-2"></i>+91 9209010005</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h5 class="text-white mt-3 font-weight-bold">Welcome to Cottonking Store</h5>
+                </div>
+                <div class="col-md-4">
+                    <a href="login.html" class="float-right text-white mt-3 font-weight-bold">Register</a>
+                    <a href="login.html" class="float-right text-white mt-3 font-weight-bold"><i
+                            class="fa-solid fa-lock text-white mr-2"></i>Login/</a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container d-none d-md-block">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="img-fluid mt-2"
+                        src="https://d1yluyhql7qeci.cloudfront.net/ckecom/images/media/store/2020/07/TenK624804.jpg"
+                        alt="">
+                </div>
+                <div class="col-md-6">
+                    <input class="form-control mt-2" placeholder="Search Products....." type="text">
+                    <button class="btn-sm btn-primary search_button">Search</button>
+                </div>
+                <div class="col-3">
+                    <i class="fa-regular fa-heart h2 mt-2 ml-4 float-left"></i>
+                    <i class="fa-solid fa-bag-shopping h2 mt-2 ml-4 float-left"></i>
+                    <h6 class="float-left ml-3 mt-2">CART<br><span>Item</span></h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <a class="navbar-brand d-none d-md-block" href="#"><i
+                                class="fa-solid fa-house bg-info p-2 text-white"></i></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ">
+                                <li class="nav-item">
+                                    <a class="nav-link font-weight-bold" href="#">HOME</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle font-weight-bold" href="#" role="button"
+                                        data-toggle="dropdown" aria-expanded="false">SHOP</a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item font-weight-bold text-info" href="#">Action</a>
+                                        <a class="dropdown-item" href="ok.html">
+                                            <p class="m-0 shop_content">Anti-Stain</p>
+                                        </a>
+                                        <a class="dropdown-item" href="#veer">
+                                            <p class="m-0 shop_content">Breathe Easy</p>
+                                        </a>
+                                        <a class="dropdown-item" href="#veer">
+                                            <p class="m-0 shop_content">AeroSoft</p>
+                                        </a>
+                                        <a class="dropdown-item" href="#veer">
+                                            <p class="m-0 shop_content">GIZA</p>
+                                        </a>
+                                        <a class="dropdown-item" href="#veer">
+                                            <p class="m-0 shop_content">Indigo Dyed</p>
+                                        </a>
+                                        <a class="dropdown-item" href="#veer">
+                                            <p class="m-0 shop_content">Micro Dobby</p>
+                                        </a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item font-weight-bold text-info" href="#">SHIRT</a>
+                                        <a class="dropdown-item" href="#veer">
+                                            <p class="m-0 shop_content">Formal Shirt</p>
+                                        </a>
+                                        <a class="dropdown-item" href="#veer">
+                                            <p class="m-0 shop_content">Slim Formal</p>
+                                        </a>
+                                        <a class="dropdown-item" href="#veer">
+                                            <p class="m-0 shop_content">Semi Formal</p>
+                                        </a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item font-weight-bold text-info" href="#">Bottom Wear</a>
+                                        <a class="dropdown-item" href="#veer">
+                                            <p class="m-0 shop_content">Jeans</p>
+                                        </a>
+                                        <a class="dropdown-item" href="#veer">
+                                            <p class="m-0 shop_content">Trouser</p>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link font-weight-bold" href="contact.html">CONTACT US</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="d-md-none col-4">
+                    <img class="w-100 mt-3"
+                        src="https://d1yluyhql7qeci.cloudfront.net/ckecom/images/media/store/2020/07/TenK624804.jpg"
+                        alt="">
+                </div>
+                <div class="col-4 d-md-none">
+                    <i class="fa-solid fa-bag-shopping h2 mt-2 text-center w-100 float-left"></i>
+                </div>
+
+                <div class="d-md-none col-12 bg-info">
+                    <input class="form-control mt-4 mb-4" placeholder="Search Products....." type="text">
+                    <button class="btn-sm btn-primary search_button1">Search</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-12 p-2" style="background-color: #e6ebed;">
+                    <a href="index.html" style="font-size: 20px;text-decoration: none;"
+                        class="ml3 mr-3 text-secondary">Home</a>
+                    <a href="shop.html" style="font-size: 20px;text-decoration: none;" class="text-secondary">/</span>
+                        <span class="ml-2 mr-3 text-secondary" style="font-size: 20px;">Shop</a>
+                    <span style="font-size: 20px;">/</span>
+                    <span style="font-size: 20px;text-decoration: none;" class="ml-3 mr-2 text-secondary">Shirt</span>
+                    <span style="font-size: 20px;" class="text-secondary">>></span> <span class="ml-2"
+                        style="font-size: 20px;">Formal Shirt</span>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <section>
+        <div class="container-fluid">
+            <div class="col-12 mt-5">
+                <h3 class=" font-weight-bold mb-5">Shop-Shirt >> Formal Shirt</h3>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-3 p-4">
+                         <ul class="list-unstyled text-center">
+                             <li class=" mt-2" style="border:2px solid black;"><a href="" style="text-decoration: none;" class="text-dark font-weight-bold text-center">COLLECTIONS</a></li>
+                             <li class=" mt-2" style="border:2px solid black;"><a href="" style="text-decoration: none;" class="text-dark font-weight-bold text-center">SHIRTS</a></li>
+                              <li class=" mt-2" style="border:2px solid black;"> <a href="" style="text-decoration: none;" class="text-dark font-weight-bold text-center">T-SHIRTS</a></li>
+                               <li class=" mt-2" style="border:2px solid black;"><a href="" style="text-decoration: none;" class="text-dark font-weight-bold text-center">JEANS</a></li>
+                              <li class=" mt-2" style="border:2px solid black;"><a href="" style="text-decoration: none;" class="text-dark font-weight-bold text-center">TROUSERS</a></li>
+                              <li class=" mt-2" style="border:2px solid black;"> <a href="" style="text-decoration: none;" class="text-dark font-weight-bold text-center">NEW ARRIVAL</a></li>
+
+                       
+                       
+                         </ul>
+
+                         <div>
+                             <h3>Price Range</h3>
+                             <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width:100%">ADD</div>
+
+                             <div class="col-12 mt-3">
+                                 <div class="row">
+                                     <div class="col-6">
+                                       <span> Rs- <input type="text" name="" class="w-75" placeholder=""></span>
+                                     </div>
+                                     
+                                      <div class="col-6">
+                                         <span>Rs- <input type="text" name="" class="w-75"></span>
+                                      </div>
+                                 </div>
+                             </div>
+                         </div>
+
+                         <ul class="list-unstyled mt-4">
+                             <li class=" mt-4 pl-3" style="border:2px solid black;"><a href="" style="text-decoration: none;" class="text-dark font-weight-bold text-center">Style</a></li>
+                              <li class=" mt-4 pl-3" style="border:2px solid black;"> <a href="" style="text-decoration: none;" class="text-dark font-weight-bold text-center">Size</a></li>
+                         </ul>
+
+                          <div class="col-12 mt-3 mb-5">
+                                 <div class="row">
+                                     <div class="col-6">
+                                      <button class="btn btn-dark w-100">RESET</button>
+                                     </div>
+                                     
+                                      <div class="col-6">
+                                        <button class="btn btn-info w-100">APPLY</button>
+                                      </div>
+                                 </div>
+                             </div>
+                </div>
+                <div class="col-12 col-md-9">
+                    <div class="container">
+                        <div class="row">
+                            <div class=" col-6 col-md-3">
+
+                                <div class="card">
+                                    <img src="https://d1yluyhql7qeci.cloudfront.net/ckecom/images/media/store/2022/10/medium1665827284Q0d6w15709_opt_39931_front.jpeg"
+                                        class="img-fluid" alt="...">
+                                    <p class="mt-3 mb-0 ml-2">NEW ARRIVAL <span class="ml-5"><i
+                                                class="fa-solid fa-heart text-info ml-5"></i></span> <span><i
+                                                class="fa-solid fa-eye text-info ml-1"></i></span> </p>
+                                    <h6 class="mt-0 ml-2">Light Pink Formal Shirt...</h6>
+                                    <p class="ml-2">Available Size : 39, 40, 42,44</p>
+                                    <h3 class="text-info"><i class="fa-solid fa-indian-rupee-sign ml-2"></i><span
+                                            class="ml-3 font-weight-bold">1450</span></h3>
+                                </div>
+                            </div>
+
+                            <div class="col-6 col-md-3 mt-3">
+                                <div class="card">
+                                    <img src="https://d1yluyhql7qeci.cloudfront.net/ckecom/images/media/store/2022/10/medium1665817825n6y3715307_opt_Front-S39811.jpeg"
+                                        class="img-fluid" alt="...">
+                                    <p class="mt-3 mb-0 ml-2">NEW ARRIVAL <span class="ml-5"><i
+                                                class="fa-solid fa-heart text-info ml-5"></i></span> <span><i
+                                                class="fa-solid fa-eye text-info ml-1"></i></span> </p>
+                                    <h6 class="mt-0 ml-2">Printed Green Formal Shirt...</h6>
+                                    <p class="ml-2">Available Size : 39,</p>
+                                    <h3 class="text-info"><i class="fa-solid fa-indian-rupee-sign ml-2"></i><span
+                                            class="ml-3 font-weight-bold">1295</span></h3>
+                                </div>
+                            </div>
+
+                            <div class="col-6 col-md-3 mt-3">
+                                <div class="card">
+                                    <img src="https://d1yluyhql7qeci.cloudfront.net/ckecom/images/media/store/2022/10/medium1665830773hNQfn15510_opt_Front-39725.jpeg"
+                                        class="img-fluid" alt="...">
+                                    <p class="mt-3 mb-0 ml-2">NEW ARRIVAL <span class="ml-5"><i
+                                                class="fa-solid fa-heart text-info ml-5"></i></span> <span><i
+                                                class="fa-solid fa-eye text-info ml-1"></i></span> </p>
+                                    <h6 class="mt-0 ml-2">Red Blue Striped T-...</h6>
+                                    <p class="ml-2">Available Size : 39, 40, 42</p>
+                                    <h3 class="text-info"><i class="fa-solid fa-indian-rupee-sign ml-2"></i><span
+                                            class="ml-3 font-weight-bold">750</span></h3>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 mt-3">
+                                <div class="card">
+                                    <img src="https://d1yluyhql7qeci.cloudfront.net/ckecom/images/media/store/2022/10/medium1665829807PEROW15110_opt_39120_Front.jpeg"
+                                        class="img-fluid" alt="...">
+                                    <p class="mt-3 mb-0 ml-2">NEW ARRIVAL <span class="ml-5"><i
+                                                class="fa-solid fa-heart text-info ml-5"></i></span> <span><i
+                                                class="fa-solid fa-eye text-info ml-1"></i></span> </p>
+                                    <h6 class="mt-0 ml-2">Checks Formal Shirt_39120...</h6>
+                                    <p class="ml-2">Available Size :40</p>
+                                    <h3 class="text-info"><i class="fa-solid fa-indian-rupee-sign ml-2"></i><span
+                                            class="ml-3 font-weight-bold">1450</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6 col-md-3 mt-3">
+                                <div class="card">
+                                    <img src="https://d1yluyhql7qeci.cloudfront.net/ckecom/images/media/store/2022/10/medium1665817825n6y3715307_opt_Front-S39811.jpeg" class="img-fluid" alt="...">
+                                    <p class="mt-3 mb-0 ml-2">NEW ARRIVAL <span class="ml-5"><i class="fa-solid fa-heart text-info ml-5"></i></span> <span><i class="fa-solid fa-eye text-info ml-1"></i></span> </p>  
+                                    <h6 class="mt-0 ml-2">Printed Green Formal Shirt...</h6>
+                                    <p class="ml-2">Available Size :   39,</p>
+                                    <h3 class="text-info"><i class="fa-solid fa-indian-rupee-sign ml-2"></i><span class="ml-3 font-weight-bold">1295</span></h3>
+                                </div>
+                            </div>
+            
+                            <div class="col-6 col-md-3 mt-3">
+                                <div class="card">
+                                    <img src="https://d1yluyhql7qeci.cloudfront.net/ckecom/images/media/store/2022/10/medium1665830773hNQfn15510_opt_Front-39725.jpeg" class="img-fluid" alt="...">
+                                    <p class="mt-3 mb-0 ml-2">NEW ARRIVAL <span class="ml-5"><i class="fa-solid fa-heart text-info ml-5"></i></span> <span><i class="fa-solid fa-eye text-info ml-1"></i></span> </p>  
+                                    <h6 class="mt-0 ml-2">Red Blue Striped T-...</h6>
+                                    <p class="ml-2">Available Size :   39, 40, 42</p>
+                                    <h3 class="text-info"><i class="fa-solid fa-indian-rupee-sign ml-2"></i><span class="ml-3 font-weight-bold">750</span></h3> 
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 mt-3">
+                                <div class="card">
+                                    <img src="https://d1yluyhql7qeci.cloudfront.net/ckecom/images/media/store/2022/10/medium1665829807PEROW15110_opt_39120_Front.jpeg" class="img-fluid" alt="...">
+                                    <p class="mt-3 mb-0 ml-2">NEW ARRIVAL <span class="ml-5"><i class="fa-solid fa-heart text-info ml-5"></i></span> <span><i class="fa-solid fa-eye text-info ml-1"></i></span> </p>  
+                                    <h6 class="mt-0 ml-2">Checks Formal Shirt_39120...</h6>
+                                    <p class="ml-2">Available Size :40</p>
+                                    <h3 class="text-info"><i class="fa-solid fa-indian-rupee-sign ml-2"></i><span class="ml-3 font-weight-bold">1450</span></h3>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 mt-3">
+                                <div class="card">
+                                    <img src="https://d1yluyhql7qeci.cloudfront.net/ckecom/images/media/store/2022/10/medium1665827284Q0d6w15709_opt_39931_front.jpeg" class="img-fluid" alt="...">
+                                    <p class="mt-3 mb-0 ml-2">NEW ARRIVAL <span class="ml-5"><i class="fa-solid fa-heart text-info ml-5"></i></span> <span><i class="fa-solid fa-eye text-info ml-1"></i></span> </p>  
+                                    <h6 class="mt-0 ml-2">Light Pink Formal Shirt...</h6>
+                                    <p class="ml-2">Available Size :   39, 40, 42,44</p>
+                                    <h3 class="text-info"><i class="fa-solid fa-indian-rupee-sign ml-2"></i><span class="ml-3 font-weight-bold">1450</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6 col-md-3 mt-3 ">
+                                <div class="card">
+                                    <img src="https://d1yluyhql7qeci.cloudfront.net/ckecom/images/media/store/2022/10/medium1665830773hNQfn15510_opt_Front-39725.jpeg" class="img-fluid" alt="...">
+                                    <p class="mt-3 mb-0 ml-2">NEW ARRIVAL <span class="ml-5"><i class="fa-solid fa-heart text-info ml-5"></i></span> <span><i class="fa-solid fa-eye text-info ml-1"></i></span> </p>  
+                                    <h6 class="mt-0 ml-2">Red Blue Striped T-...</h6>
+                                    <p class="ml-2">Available Size :   39, 40, 42</p>
+                                    <h3 class="text-info"><i class="fa-solid fa-indian-rupee-sign ml-2"></i><span class="ml-3 font-weight-bold">750</span></h3> 
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 mt-3">
+                                <div class="card">
+                                    <img src="https://d1yluyhql7qeci.cloudfront.net/ckecom/images/media/store/2022/10/medium1665829807PEROW15110_opt_39120_Front.jpeg" class="img-fluid" alt="...">
+                                    <p class="mt-3 mb-0 ml-2">NEW ARRIVAL <span class="ml-5"><i class="fa-solid fa-heart text-info ml-5"></i></span> <span><i class="fa-solid fa-eye text-info ml-1"></i></span> </p>  
+                                    <h6 class="mt-0 ml-2">Checks Formal Shirt_39120...</h6>
+                                    <p class="ml-2">Available Size :40</p>
+                                    <h3 class="text-info"><i class="fa-solid fa-indian-rupee-sign ml-2"></i><span class="ml-3 font-weight-bold">1450</span></h3>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 mt-3">
+                                <div class="card">
+                                    <img src="https://d1yluyhql7qeci.cloudfront.net/ckecom/images/media/store/2022/10/medium1665827284Q0d6w15709_opt_39931_front.jpeg" class="img-fluid" alt="...">
+                                    <p class="mt-3 mb-0 ml-2">NEW ARRIVAL <span class="ml-5"><i class="fa-solid fa-heart text-info ml-5"></i></span> <span><i class="fa-solid fa-eye text-info ml-1"></i></span> </p>  
+                                    <h6 class="mt-0 ml-2">Light Pink Formal Shirt...</h6>
+                                    <p class="ml-2">Available Size :   39, 40, 42,44</p>
+                                    <h3 class="text-info"><i class="fa-solid fa-indian-rupee-sign ml-2"></i><span class="ml-3 font-weight-bold">1450</span></h3>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 mt-3">
+                                <div class="card">
+                                    <img src="https://d1yluyhql7qeci.cloudfront.net/ckecom/images/media/store/2022/10/medium1665817825n6y3715307_opt_Front-S39811.jpeg" class="img-fluid" alt="...">
+                                    <p class="mt-3 mb-0 ml-2">NEW ARRIVAL <span class="ml-5"><i class="fa-solid fa-heart text-info ml-5"></i></span> <span><i class="fa-solid fa-eye text-info ml-1"></i></span> </p>  
+                                    <h6 class="mt-0 ml-2">Printed Green Formal Shirt...</h6>
+                                    <p class="ml-2">Available Size :   39,</p>
+                                    <h3 class="text-info"><i class="fa-solid fa-indian-rupee-sign ml-2"></i><span class="ml-3 font-weight-bold">1295</span></h3>
+                                </div>
+                            </div>
+            
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6 col-md-3 mt-3">
+                                <div class="card">
+                                    <img src="https://d1yluyhql7qeci.cloudfront.net/ckecom/images/media/store/2022/10/medium1665817825n6y3715307_opt_Front-S39811.jpeg" class="img-fluid" alt="...">
+                                    <p class="mt-3 mb-0 ml-2">NEW ARRIVAL <span class="ml-5"><i class="fa-solid fa-heart text-info ml-5"></i></span> <span><i class="fa-solid fa-eye text-info ml-1"></i></span> </p>  
+                                    <h6 class="mt-0 ml-2">Printed Green Formal Shirt...</h6>
+                                    <p class="ml-2">Available Size :   39,</p>
+                                    <h3 class="text-info"><i class="fa-solid fa-indian-rupee-sign ml-2"></i><span class="ml-3 font-weight-bold">1295</span></h3>
+                                </div>
+                            </div>
+            
+                           <div class="col-6 col-md-3 mt-3">
+                    <div class="card">
+                        <img src="https://d1yluyhql7qeci.cloudfront.net/ckecom/images/media/store/2020/07/medium15943682506lGSv10508.JPG" class="img-fluid" alt="...">
+                        <p class="mt-3 mb-0 ml-2">NEW ARRIVAL <span class="ml-5"><i class="fa-solid fa-heart text-info ml-5"></i></span> <span><i class="fa-solid fa-eye text-info ml-1"></i></span> </p>  
+                        <h6 class="mt-0 ml-2">Red Blue Striped T-...</h6>
+                        <p class="ml-2">Available Size :   39, 40, 42</p>
+                        <h3 class="text-info"><i class="fa-solid fa-indian-rupee-sign ml-2"></i><span class="ml-3 font-weight-bold">750</span></h3>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 mt-3">
+                    <div class="card">
+                        <img src="https://d1yluyhql7qeci.cloudfront.net/ckecom/images/media/store4/2020/06/medium1593066478TGgPI25506.png" class="img-fluid" alt="...">
+                        <p class="mt-3 mb-0 ml-2">NEW ARRIVAL <span class="ml-5"><i class="fa-solid fa-heart text-info ml-5"></i></span> <span><i class="fa-solid fa-eye text-info ml-1"></i></span> </p>  
+                        <h6 class="mt-0 ml-2">Red Blue Striped T-...</h6>
+                        <p class="ml-2">Available Size :   39, 40, 42</p>
+                        <h3 class="text-info"><i class="fa-solid fa-indian-rupee-sign ml-2"></i><span class="ml-3 font-weight-bold">750</span></h3>
+                    </div>
+                </div>
+                            <div class="col-6 col-md-3 mt-3">
+                                <div class="card">
+                                    <img src="https://d1yluyhql7qeci.cloudfront.net/ckecom/images/media/store/2022/10/medium1665817825n6y3715307_opt_Front-S39811.jpeg" class="img-fluid" alt="...">
+                                    <p class="mt-3 mb-0 ml-2">NEW ARRIVAL <span class="ml-5"><i class="fa-solid fa-heart text-info ml-5"></i></span> <span><i class="fa-solid fa-eye text-info ml-1"></i></span> </p>  
+                                    <h6 class="mt-0 ml-2">Printed Green Formal Shirt...</h6>
+                                    <p class="ml-2">Available Size :   39,</p>
+                                    <h3 class="text-info"><i class="fa-solid fa-indian-rupee-sign ml-2"></i><span class="ml-3 font-weight-bold">1295</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6 col-md-3 mt-3">
+                                <div class="card">
+                                    <img src="https://d1yluyhql7qeci.cloudfront.net/ckecom/images/media/store/2022/10/medium1665830773hNQfn15510_opt_Front-39725.jpeg" class="img-fluid" alt="...">
+                                    <p class="mt-3 mb-0 ml-2">NEW ARRIVAL <span class="ml-5"><i class="fa-solid fa-heart text-info ml-5"></i></span> <span><i class="fa-solid fa-eye text-info ml-1"></i></span> </p>  
+                                    <h6 class="mt-0 ml-2">Red Blue Striped T-...</h6>
+                                    <p class="ml-2">Available Size :   39, 40, 42</p>
+                                    <h3 class="text-info"><i class="fa-solid fa-indian-rupee-sign ml-2"></i><span class="ml-3 font-weight-bold">750</span></h3> 
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 mt-3">
+                                <div class="card">
+                                    <img src="https://d1yluyhql7qeci.cloudfront.net/ckecom/images/media/store/2022/10/medium1665829807PEROW15110_opt_39120_Front.jpeg" class="img-fluid" alt="...">
+                                    <p class="mt-3 mb-0 ml-2">NEW ARRIVAL <span class="ml-5"><i class="fa-solid fa-heart text-info ml-5"></i></span> <span><i class="fa-solid fa-eye text-info ml-1"></i></span> </p>  
+                                    <h6 class="mt-0 ml-2">Checks Formal Shirt_39120...</h6>
+                                    <p class="ml-2">Available Size :40</p>
+                                    <h3 class="text-info"><i class="fa-solid fa-indian-rupee-sign ml-2"></i><span class="ml-3 font-weight-bold">1450</span></h3>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 mt-3">
+                                <div class="card">
+                                    <img src="https://d1yluyhql7qeci.cloudfront.net/ckecom/images/media/store/2022/10/medium1665827284Q0d6w15709_opt_39931_front.jpeg" class="img-fluid" alt="...">
+                                    <p class="mt-3 mb-0 ml-2">NEW ARRIVAL <span class="ml-5"><i class="fa-solid fa-heart text-info ml-5"></i></span> <span><i class="fa-solid fa-eye text-info ml-1"></i></span> </p>  
+                                    <h6 class="mt-0 ml-2">Light Pink Formal Shirt...</h6>
+                                    <p class="ml-2">Available Size :   39, 40, 42,44</p>
+                                    <h3 class="text-info"><i class="fa-solid fa-indian-rupee-sign ml-2"></i><span class="ml-3 font-weight-bold">1450</span></h3>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 mt-3">
+                                <div class="card">
+                                    <img src="https://d1yluyhql7qeci.cloudfront.net/ckecom/images/media/store/2022/10/medium1665817825n6y3715307_opt_Front-S39811.jpeg" class="img-fluid" alt="...">
+                                    <p class="mt-3 mb-0 ml-2">NEW ARRIVAL <span class="ml-5"><i class="fa-solid fa-heart text-info ml-5"></i></span> <span><i class="fa-solid fa-eye text-info ml-1"></i></span> </p>  
+                                    <h6 class="mt-0 ml-2">Printed Green Formal Shirt...</h6>
+                                    <p class="ml-2">Available Size :   39,</p>
+                                    <h3 class="text-info"><i class="fa-solid fa-indian-rupee-sign ml-2"></i><span class="ml-3 font-weight-bold">1295</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                   
+
+                    
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6 col-md-3 mt-3">
+                                <div class="card">
+                                    <img src="https://d1yluyhql7qeci.cloudfront.net/ckecom/images/media/store1/2020/09/medium1600330533XvGd617508.JPG" class="img-fluid" alt="...">
+                                    <p class="mt-3 mb-0 ml-2">NEW ARRIVAL <span class="ml-5"><i class="fa-solid fa-heart text-info ml-5"></i></span> <span><i class="fa-solid fa-eye text-info ml-1"></i></span> </p>  
+                                    <h6 class="mt-0 ml-2">Red Blue Striped T-...</h6>
+                                    <p class="ml-2">Available Size :   39, 40, 42</p>
+                                    <h3 class="text-info"><i class="fa-solid fa-indian-rupee-sign ml-2"></i><span class="ml-3 font-weight-bold">750</span></h3>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 mt-3">
+                                <div class="card">
+                                    <img src="https://d1yluyhql7qeci.cloudfront.net/ckecom/images/media/store/2022/06/medium16553589860l3Ko16905_front_s35667.jpg" class="img-fluid" alt="...">
+                                    <p class="mt-3 mb-0 ml-2">NEW ARRIVAL <span class="ml-5"><i class="fa-solid fa-heart text-info ml-5"></i></span> <span><i class="fa-solid fa-eye text-info ml-1"></i></span> </p>  
+                                    <h6 class="mt-0 ml-2">Red Blue Striped T-...</h6>
+                                    <p class="ml-2">Available Size :   39, 40, 42</p>
+                                    <h3 class="text-info"><i class="fa-solid fa-indian-rupee-sign ml-2"></i><span class="ml-3 font-weight-bold">750</span></h3>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 mt-3">
+                                <div class="card">
+                                    <img src="https://d1yluyhql7qeci.cloudfront.net/ckecom/images/media/store/2020/07/medium15943682506lGSv10508.JPG" class="img-fluid" alt="...">
+                                    <p class="mt-3 mb-0 ml-2">NEW ARRIVAL <span class="ml-5"><i class="fa-solid fa-heart text-info ml-5"></i></span> <span><i class="fa-solid fa-eye text-info ml-1"></i></span> </p>  
+                                    <h6 class="mt-0 ml-2">Red Blue Striped T-...</h6>
+                                    <p class="ml-2">Available Size :   39, 40, 42</p>
+                                    <h3 class="text-info"><i class="fa-solid fa-indian-rupee-sign ml-2"></i><span class="ml-3 font-weight-bold">750</span></h3>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 mt-3">
+                                <div class="card">
+                                    <img src="https://d1yluyhql7qeci.cloudfront.net/ckecom/images/media/store4/2020/06/medium1593066478TGgPI25506.png" class="img-fluid" alt="...">
+                                    <p class="mt-3 mb-0 ml-2">NEW ARRIVAL <span class="ml-5"><i class="fa-solid fa-heart text-info ml-5"></i></span> <span><i class="fa-solid fa-eye text-info ml-1"></i></span> </p>  
+                                    <h6 class="mt-0 ml-2">Red Blue Striped T-...</h6>
+                                    <p class="ml-2">Available Size :   39, 40, 42</p>
+                                    <h3 class="text-info"><i class="fa-solid fa-indian-rupee-sign ml-2"></i><span class="ml-3 font-weight-bold">750</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 mb-2 col-xl-3">
+                    <div class="row bg-light">
+                        <div class="col-3 p-4">
+                            <i class="fa-solid fa-truck display-4 text-info"></i>
+                        </div>
+                        <div class="col-9 p-4">
+                            <h5 class="font-weight-bold">Free Shipping</h5>
+                            <h6>Above Rs 1000</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 mb-2 col-xl-3">
+                    <div class="row bg-light">
+                        <div class="col-3 p-4">
+                            <i class="fa-solid fa-money-bill display-4 text-info"></i>
+                        </div>
+                        <div class="col-9 p-4">
+                            <h5 class="font-weight-bold mt-3">100% Cotton</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 mb-2 col-xl-3">
+                    <div class="row bg-light">
+                        <div class="col-3 p-4">
+                            <i class="fa-solid fa-credit-card display-4 text-info"></i>
+                        </div>
+                        <div class="col-9 p-4">
+                            <h5 class="font-weight-bold mt-3">Safe Payment</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 mb-2 col-xl-3">
+                    <div class="row bg-light">
+                        <div class="col-3 p-4">
+                            <i class="fa-solid fa-store display-4 text-info"></i>
+                        </div>
+                        <div class="col-9 p-4">
+                            <h5 class="font-weight-bold">Nationwide</h5>
+                            <h6>200+Store</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 text-center mt-4">
+                    <img src="https://d1yluyhql7qeci.cloudfront.net/ckecom/images/media/store/2020/07/TenK624804.jpg"
+                        alt="">
+                    <h5 class="mt-4"><i class="fa-solid fa-envelope mr-2"></i>info@cottonking.com</h5>
+                    <p class="text-justify">Cottonking - Brand synonymous with Success, Trust, Quality and Excellence.
+                        The 3 pillars of the brand are 100% Cotton, Maximum Variety in Cotton and Value for Money for
+                        its customers. Launched in 1996, Cottonking is a brand with a difference.</p>
+                    <h6>© Fashionking Brands Pvt. Ltd. All Rights Reserved</h6>
+                    <i class="fa-brands fa-facebook text-info h1 ml-3 mt-4"></i>
+                    <i class="fa-brands fa-instagram text-danger h1 ml-3 mt-4"></i>
+                </div>
+                <div class="col-12 col-md-6 mt-4">
+                    <div class="row">
+                        <div class="col-6 text-center">
+                            <h5>QUICK LINKS</h5>
+                            <a href="">
+                                <h6 class="text-dark mt-3">Home</h6>
+                            </a>
+                            <a href="">
+                                <h6 class="text-dark mt-3">Shop</h6>
+                            </a>
+                            <a href="">
+                                <h6 class="text-dark mt-3">Order</h6>
+                            </a>
+                            <a href="">
+                                <h6 class="text-dark mt-3">Shopping Cart</h6>
+                            </a>
+                            <a href="">
+                                <h6 class="text-dark mt-3">Wishlist</h6>
+                            </a>
+                        </div>
+                        <div class="col-6 text-center">
+                            <h5>PERSONALIZATION</h5>
+                            <a href="">
+                                <h6 class="text-dark mt-3">Cancellation & Refund Policy</h6>
+                            </a>
+                            <a href="">
+                                <h6 class="text-dark mt-3">Privacy Policy</h6>
+                            </a>
+                            <a href="">
+                                <h6 class="text-dark mt-3">Returns & Exchange Policy</h6>
+                            </a>
+                            <a href="">
+                                <h6 class="text-dark mt-3">Shipping & Delivery Policy</h6>
+                            </a>
+                            <a href="">
+                                <h6 class="text-dark mt-3">Terms and Conditions</h6>
+                            </a>
+                            <a href="">
+                                <h6 class="text-dark mt-3">Contact Us</h6>
+                            </a>
+                            <a href="">
+                                <h6 class="text-dark mt-3">Store Locator</h6>
+                            </a>
+                            <a href="">
+                                <h6 class="text-dark mt-3">Ships to US & UK</h6>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-2 text-center mt-4">
+                    <h6>INSTAGRAM FEED</h6>
+                    <i class="fa-brands fa-instagram text-danger h1 ml-3 mt-4"></i>
+                    <h6 class="mt-4">PAY SECURELY BY</h6>
+                </div>
+                <div class="col-12 text-center">
+                    <h6>© Cottonking. Privacy • Terms</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
